@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8719664628479D170002CAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719664528479D170002CAAD /* AppDelegate.swift */; };
-		8719664828479D170002CAAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719664728479D170002CAAD /* SceneDelegate.swift */; };
 		8719664A28479D170002CAAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719664928479D170002CAAD /* ViewController.swift */; };
-		8719664D28479D170002CAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8719664B28479D170002CAAD /* Main.storyboard */; };
 		8719664F28479D1A0002CAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8719664E28479D1A0002CAAD /* Assets.xcassets */; };
 		8719665228479D1A0002CAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8719665028479D1A0002CAAD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		8719664228479D170002CAAD /* Kitel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8719664528479D170002CAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8719664728479D170002CAAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8719664928479D170002CAAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8719664C28479D170002CAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8719664E28479D1A0002CAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8719665128479D1A0002CAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8719665328479D1A0002CAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +52,69 @@
 		8719664428479D170002CAAD /* Kitel */ = {
 			isa = PBXGroup;
 			children = (
-				8719664528479D170002CAAD /* AppDelegate.swift */,
-				8719664728479D170002CAAD /* SceneDelegate.swift */,
-				8719664928479D170002CAAD /* ViewController.swift */,
-				8719664B28479D170002CAAD /* Main.storyboard */,
-				8719664E28479D1A0002CAAD /* Assets.xcassets */,
-				8719665028479D1A0002CAAD /* LaunchScreen.storyboard */,
-				8719665328479D1A0002CAAD /* Info.plist */,
+				8719665E28479EA20002CAAD /* Network */,
+				8719665928479DC50002CAAD /* Global */,
+				8719665D28479DE00002CAAD /* Resource */,
+				8719665C28479DDA0002CAAD /* Source */,
 			);
 			path = Kitel;
+			sourceTree = "<group>";
+		};
+		8719665928479DC50002CAAD /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				8719665B28479DD20002CAAD /* Extension */,
+				8719665A28479DCB0002CAAD /* Constant */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		8719665A28479DCB0002CAAD /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		8719665B28479DD20002CAAD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8719665C28479DDA0002CAAD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8719664928479D170002CAAD /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8719665D28479DE00002CAAD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8719665328479D1A0002CAAD /* Info.plist */,
+				8719664528479D170002CAAD /* AppDelegate.swift */,
+				8719664E28479D1A0002CAAD /* Assets.xcassets */,
+				8719665028479D1A0002CAAD /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8719665E28479EA20002CAAD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8719665F28479EC00002CAAD /* API */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8719665F28479EC00002CAAD /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +177,6 @@
 			files = (
 				8719665228479D1A0002CAAD /* LaunchScreen.storyboard in Resources */,
 				8719664F28479D1A0002CAAD /* Assets.xcassets in Resources */,
-				8719664D28479D170002CAAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +189,12 @@
 			files = (
 				8719664A28479D170002CAAD /* ViewController.swift in Sources */,
 				8719664628479D170002CAAD /* AppDelegate.swift in Sources */,
-				8719664828479D170002CAAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8719664B28479D170002CAAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8719664C28479D170002CAAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8719665028479D1A0002CAAD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +332,6 @@
 				INFOPLIST_FILE = Kitel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +359,6 @@
 				INFOPLIST_FILE = Kitel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
