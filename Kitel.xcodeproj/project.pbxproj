@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6E14E50B4C96D6E948507D /* Pods_Kitel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79B7A473639D93F231BCA22 /* Pods_Kitel.framework */; };
 		8719664628479D170002CAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719664528479D170002CAAD /* AppDelegate.swift */; };
 		8719664A28479D170002CAAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719664928479D170002CAAD /* ViewController.swift */; };
 		8719664F28479D1A0002CAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8719664E28479D1A0002CAAD /* Assets.xcassets */; };
 		8719665228479D1A0002CAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8719665028479D1A0002CAAD /* LaunchScreen.storyboard */; };
+		8719666128479FB70002CAAD /* RentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719666028479FB70002CAAD /* RentNavigationController.swift */; };
+		871966632847A3450002CAAD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871966622847A3450002CAAD /* TabBarController.swift */; };
+		871966652847A88B0002CAAD /* FindNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871966642847A88B0002CAAD /* FindNavigationController.swift */; };
+		8719666A2847AA2C0002CAAD /* RentMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871966692847AA2C0002CAAD /* RentMainViewController.swift */; };
+		8719666C2847AA610002CAAD /* RentSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719666B2847AA610002CAAD /* RentSelectViewController.swift */; };
+		8719666E2847ACFC0002CAAD /* FindMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719666D2847ACFC0002CAAD /* FindMainViewController.swift */; };
+		871966702847B3980002CAAD /* RentDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719666F2847B3980002CAAD /* RentDoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		027494FC5222C051B26A1BC9 /* Pods-Kitel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitel.debug.xcconfig"; path = "Target Support Files/Pods-Kitel/Pods-Kitel.debug.xcconfig"; sourceTree = "<group>"; };
 		8719664228479D170002CAAD /* Kitel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8719664528479D170002CAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8719664928479D170002CAAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8719664E28479D1A0002CAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8719665128479D1A0002CAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8719665328479D1A0002CAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8719666028479FB70002CAAD /* RentNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentNavigationController.swift; sourceTree = "<group>"; };
+		871966622847A3450002CAAD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		871966642847A88B0002CAAD /* FindNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNavigationController.swift; sourceTree = "<group>"; };
+		871966692847AA2C0002CAAD /* RentMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentMainViewController.swift; sourceTree = "<group>"; };
+		8719666B2847AA610002CAAD /* RentSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentSelectViewController.swift; sourceTree = "<group>"; };
+		8719666D2847ACFC0002CAAD /* FindMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMainViewController.swift; sourceTree = "<group>"; };
+		8719666F2847B3980002CAAD /* RentDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentDoneViewController.swift; sourceTree = "<group>"; };
+		A79B7A473639D93F231BCA22 /* Pods_Kitel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C2F47F2EA7D60B305E1903 /* Pods-Kitel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitel.release.xcconfig"; path = "Target Support Files/Pods-Kitel/Pods-Kitel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6E14E50B4C96D6E948507D /* Pods_Kitel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74C3804B2FB5ECD26E44C5A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				027494FC5222C051B26A1BC9 /* Pods-Kitel.debug.xcconfig */,
+				D5C2F47F2EA7D60B305E1903 /* Pods-Kitel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8719663928479D170002CAAD = {
 			isa = PBXGroup;
 			children = (
 				8719664428479D170002CAAD /* Kitel */,
 				8719664328479D170002CAAD /* Products */,
+				74C3804B2FB5ECD26E44C5A1 /* Pods */,
+				CEF9E24CDE81751DEB4FEB2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +82,7 @@
 		8719664428479D170002CAAD /* Kitel */ = {
 			isa = PBXGroup;
 			children = (
+				8719664928479D170002CAAD /* ViewController.swift */,
 				8719665E28479EA20002CAAD /* Network */,
 				8719665928479DC50002CAAD /* Global */,
 				8719665D28479DE00002CAAD /* Resource */,
@@ -86,7 +117,11 @@
 		8719665C28479DDA0002CAAD /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				8719664928479D170002CAAD /* ViewController.swift */,
+				871966622847A3450002CAAD /* TabBarController.swift */,
+				8719666028479FB70002CAAD /* RentNavigationController.swift */,
+				871966642847A88B0002CAAD /* FindNavigationController.swift */,
+				871966662847A9F40002CAAD /* Rent */,
+				871966682847AA030002CAAD /* Find */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -117,6 +152,32 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		871966662847A9F40002CAAD /* Rent */ = {
+			isa = PBXGroup;
+			children = (
+				871966692847AA2C0002CAAD /* RentMainViewController.swift */,
+				8719666B2847AA610002CAAD /* RentSelectViewController.swift */,
+				8719666F2847B3980002CAAD /* RentDoneViewController.swift */,
+			);
+			path = Rent;
+			sourceTree = "<group>";
+		};
+		871966682847AA030002CAAD /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				8719666D2847ACFC0002CAAD /* FindMainViewController.swift */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		CEF9E24CDE81751DEB4FEB2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A79B7A473639D93F231BCA22 /* Pods_Kitel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8719665628479D1A0002CAAD /* Build configuration list for PBXNativeTarget "Kitel" */;
 			buildPhases = (
+				1EE190EB539333532657C4D9 /* [CP] Check Pods Manifest.lock */,
 				8719663E28479D170002CAAD /* Sources */,
 				8719663F28479D170002CAAD /* Frameworks */,
 				8719664028479D170002CAAD /* Resources */,
+				A75DD5A8AA7B0D7E8024F422 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,13 +245,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EE190EB539333532657C4D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kitel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A75DD5A8AA7B0D7E8024F422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kitel/Pods-Kitel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kitel/Pods-Kitel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kitel/Pods-Kitel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8719663E28479D170002CAAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8719666128479FB70002CAAD /* RentNavigationController.swift in Sources */,
+				871966632847A3450002CAAD /* TabBarController.swift in Sources */,
 				8719664A28479D170002CAAD /* ViewController.swift in Sources */,
+				871966652847A88B0002CAAD /* FindNavigationController.swift in Sources */,
+				8719666E2847ACFC0002CAAD /* FindMainViewController.swift in Sources */,
+				8719666A2847AA2C0002CAAD /* RentMainViewController.swift in Sources */,
 				8719664628479D170002CAAD /* AppDelegate.swift in Sources */,
+				871966702847B3980002CAAD /* RentDoneViewController.swift in Sources */,
+				8719666C2847AA610002CAAD /* RentSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -310,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -322,6 +434,7 @@
 		};
 		8719665728479D1A0002CAAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027494FC5222C051B26A1BC9 /* Pods-Kitel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,9 +442,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T6DNHAHXG9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Kitel/Info.plist;
+				INFOPLIST_FILE = Kitel/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,12 +457,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8719665828479D1A0002CAAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C2F47F2EA7D60B305E1903 /* Pods-Kitel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,9 +471,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T6DNHAHXG9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Kitel/Info.plist;
+				INFOPLIST_FILE = Kitel/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -370,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
